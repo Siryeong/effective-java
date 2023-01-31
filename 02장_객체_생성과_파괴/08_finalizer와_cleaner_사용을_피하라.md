@@ -20,7 +20,7 @@ java 9부터 deprecated 되었다...
 protected void finalize() throws Throwable { }
 ```
 
-
+<br>
 
 ### Cleaner
 
@@ -54,7 +54,7 @@ public class Hello implements AutoCloseable {
 }
 ```
 
-
+<br>
 
 ### 단점
 
@@ -62,6 +62,6 @@ public class Hello implements AutoCloseable {
 2. 심각한 성능 문제를 동반한다. GC효율을 떨어뜨린다.
 3. finalizer 공격에 노출될 수 있다.
 
-
+<br>
 
 *finalizer와 cleaner가 생소하여, 충분히 공부 한 후 다시 보도록 하겠습니다.*
